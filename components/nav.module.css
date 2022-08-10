@@ -1,0 +1,30 @@
+.container {
+  margin: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper {
+  padding-left: 1rem /* 16px */;
+  padding-right: 1rem /* 16px */;
+  display: flex;
+  padding: 1.25rem /* 20px */;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+}
+
+.home {
+  margin-right: 1rem;
+  cursor: pointer;
+
+}
+
+.login {
+  cursor: pointer;
+
+}
